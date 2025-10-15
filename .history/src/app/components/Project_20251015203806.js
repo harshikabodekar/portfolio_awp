@@ -20,13 +20,15 @@ const Projects = () => {
       title: "Weather Dashboard",
       description: "Real-time weather dashboard with forecasts, interactive maps, and location-based recommendations.",
       tech: ["Vue.js", "Python", "FastAPI", "OpenWeather API"],
-      
+      github: "https://github.com",
+      demo: "https://demo.com"
     },
     {
       title: "AI Chat Application",
       description: "Intelligent chatbot with natural language processing, context awareness, and custom training capabilities.",
       tech: ["React", "Python", "TensorFlow", "WebSockets"],
-      
+      github: "https://github.com",
+      demo: "https://demo.com"
     }
   ];
 
