@@ -1,24 +1,21 @@
-"use client";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react';
-
 const Contact = () => {
   const contactInfo = [
     {
       icon: Mail,
       label: "Email",
-      value: "harshikabodekar02@gmail.com",
-      href: "mailto:harshikabodekar02@gmail.com"
+      value: "your.email@example.com",
+      href: "mailto:your.email@example.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9130343030",
-      href: "tel:+919130343030"
+      value: "+1 (555) 123-4567",
+      href: "tel:+15551234567"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Pune, India",
+      value: "San Francisco, CA",
       href: "#"
     }
   ];
@@ -27,17 +24,17 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/harshikabodekar"
+      href: "https://github.com"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/harshikabodekar"
+      href: "https://linkedin.com"
     },
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com/harshikabodekar"
+      href: "https://twitter.com"
     }
   ];
 

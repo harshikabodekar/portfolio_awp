@@ -32,12 +32,12 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/harshikabodekar"
+      href: "https://linkedin.com"
     },
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com/harshikabodekar"
+      href: "https://twitter.com"
     }
   ];
 
