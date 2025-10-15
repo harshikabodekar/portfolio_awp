@@ -5,27 +5,27 @@ import { projectsData } from '../data/projects';
 const Projects = () => {
   const projects = [
     {
-      title: "Anandam - simplified living for seniors (company project)",
-      description: "A Platform dedicated to the senior citizens of india with trusted , geniune and verified data is provided about the senior care .",
-      tech: ["React"," Next.js","Figma"],
+      title: "",
+      description: "A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.",
+      tech: ["React", "Node.js", "MongoDB", "Stripe"],
 
     },
     {
-      title: "EventEase (self project)",
-      description: "Collaborative event manager with real-time updates, team workspaces, and advanced filtering capabilities, and registration portal",
-      tech: ["Next.js", "Supabase"],
+      title: "Task Management App",
+      description: "Collaborative task manager with real-time updates, team workspaces, and advanced filtering capabilities.",
+      tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
       
     },
     {
-      title: "Daycare Site( company project)",
-      description: "A user-friendly daycare website with various features.",
+      title: "Weather Dashboard",
+      description: "Real-time weather dashboard with forecasts, interactive maps, and location-based recommendations.",
       tech: ["Vue.js", "Python", "FastAPI", "OpenWeather API"],
       
     },
     {
-      title: "Investax.pro (company project)",
-      description: "A comprehensive investment platform offering real-time market data, portfolio management, and advanced analytics tools for investors.",
-      tech: ["React", "Python", "Next.js", "Supabase"],
+      title: "AI Chat Application",
+      description: "Intelligent chatbot with natural language processing, context awareness, and custom training capabilities.",
+      tech: ["React", "Python", "TensorFlow", "WebSockets"],
      
     }
   ];

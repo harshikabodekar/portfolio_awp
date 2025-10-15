@@ -11,7 +11,7 @@ const Projects = () => {
 
     },
     {
-      title: "EventEase (self project)",
+      title: "EventEase ( self ",
       description: "Collaborative event manager with real-time updates, team workspaces, and advanced filtering capabilities, and registration portal",
       tech: ["Next.js", "Supabase"],
       

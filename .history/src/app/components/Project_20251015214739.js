@@ -11,7 +11,7 @@ const Projects = () => {
 
     },
     {
-      title: "EventEase (self project)",
+      title: "EventEase",
       description: "Collaborative event manager with real-time updates, team workspaces, and advanced filtering capabilities, and registration portal",
       tech: ["Next.js", "Supabase"],
       
@@ -25,7 +25,7 @@ const Projects = () => {
     {
       title: "Investax.pro (company project)",
       description: "A comprehensive investment platform offering real-time market data, portfolio management, and advanced analytics tools for investors.",
-      tech: ["React", "Python", "Next.js", "Supabase"],
+      tech: ["React", "Python", "Next.js", "Django"],
      
     }
   ];

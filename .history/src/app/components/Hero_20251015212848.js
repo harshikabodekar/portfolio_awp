@@ -6,13 +6,13 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="py-20 px-6 bg-gradient-to-b from-slate-800 to-slate-900 text-white min-h-screen flex items-center justify-center"
+      className="min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-slate-800 to-slate-900 text-white pt-20"
     >
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
+      <div className="container mx-auto px-6">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
           
           {/* Profile Image */}
-          <div className="flex justify-center mb-12">
+          <div className="flex-shrink-0">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-2xl">
               <Image 
                 src="/profile.jpeg.jpeg" 
@@ -24,23 +24,22 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Text Content - Centered like About page */}
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-r from-white to-blue-400 bg-clip-text text-transparent">
+          {/* Text Content */}
+          <div className="flex-1 text-center md:text-left">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-400 bg-clip-text text-transparent">
               Harshika Bodekar
             </h1>
-            <div className="w-24 h-1 bg-gradient-to-r from-white to-blue-400 mx-auto mb-12"></div>
             
-            <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-8 leading-relaxed">
+            <p className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-4">
               Computer Science Student | Frontend Developer
             </p>
             
-            <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-12 leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-12 leading-relaxed">
               Crafting elegant digital experiences with modern technologies. 
               Passionate about clean code, intuitive design, and building products that make a difference.
             </p>
 
-            <div className="flex gap-6 justify-center">
+            <div className="flex gap-6 justify-center md:justify-start">
               <a 
                 href="https://github.com/harshikabodekar" 
                 target="_blank" 
