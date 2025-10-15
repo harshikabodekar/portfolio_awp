@@ -51,13 +51,13 @@ const Skills = () => {
               return (
                 <div
                   key={index}
-                  className="border-2 border-white/20 rounded-xl p-4 sm:p-5 md:p-6 min-h-[260px] sm:min-h-[280px] hover:border-blue-400/50 transition-all duration-300 backdrop-blur-sm bg-white/5 group flex flex-col"
+                  className="border-2 border-white/20 rounded-xl p-6 h-[280px] hover:border-blue-400/50 transition-all duration-300 backdrop-blur-sm bg-white/5 group flex flex-col"
                 >
-                  <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-                    <div className="p-2 sm:p-3 bg-blue-600/30 rounded-lg group-hover:bg-blue-600/50 transition-all duration-300 flex-shrink-0">
-                      <IconComponent className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-blue-300" />
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="p-3 bg-blue-600/30 rounded-lg group-hover:bg-blue-600/50 transition-all duration-300">
+                      <IconComponent className="w-8 h-8 text-blue-300" />
                     </div>
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-blue-400 transition-colors leading-tight">
+                    <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
                       {category.title}
                     </h3>
                   </div>
@@ -66,7 +66,7 @@ const Skills = () => {
                     {category.skills.map((skill, skillIndex) => (
                       <span
                         key={skillIndex}
-                        className="px-3 sm:px-4 py-1.5 sm:py-2 bg-slate-700/50 border border-slate-600/50 rounded-full text-xs sm:text-sm text-gray-200 hover:bg-blue-600/30 hover:border-blue-400/50 transition-all duration-300"
+                        className="px-4 py-2 bg-slate-700/50 border border-slate-600/50 rounded-full text-sm text-gray-200 hover:bg-blue-600/30 hover:border-blue-400/50 transition-all duration-300"
                       >
                         {skill}
                       </span>
