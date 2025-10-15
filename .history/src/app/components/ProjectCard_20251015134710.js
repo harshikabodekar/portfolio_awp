@@ -1,0 +1,11 @@
+import React from 'react';
+
+export default function ProjectCard({ project }) {
+  return (
+    <article className="bg-white text-black rounded-lg p-4 shadow-md">
+      <h3 className="font-semibold text-lg mb-2">{project.title}</h3>
+      <p className="text-sm mb-4">{project.description}</p>
+      <a className="text-blue-600 underline" href={project.link} target="_blank" rel="noreferrer">View</a>
+    </article>
+  );
+}
