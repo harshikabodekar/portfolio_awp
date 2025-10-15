@@ -31,32 +31,10 @@ const Hero = () => {
             <button onClick={() => {}} className="px-6 py-3 border-2 border-white text-white rounded-full hover:bg-white hover:text-slate-900 transition-colors w-full sm:w-auto">Get In Touch</button>
           </div> */}
 
-          <div className="flex flex-wrap gap-4 sm:gap-6 justify-center px-4">
-            <a 
-              href="https://github.com/harshikabodekar" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all group"
-              aria-label="GitHub"
-            >
-              <Github className="w-6 h-6 sm:w-8 sm:h-8 text-white group-hover:text-blue-400 transition-colors" />
-            </a>
-            <a 
-              href="https://linkedin.com/in/harshikabodekar" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all group"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="w-6 h-6 sm:w-8 sm:h-8 text-white group-hover:text-blue-400 transition-colors" />
-            </a>
-            <a 
-              href="mailto:harshikabodekar02@gmail.com" 
-              className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all group"
-              aria-label="Email"
-            >
-              <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-white group-hover:text-blue-400 transition-colors" />
-            </a>
+          <div className="flex flex-wrap gap-4 sm:gap-6 justify-center text-3xl sm:text-base px-4">
+            <a href="https://github.com/harshikabodekar" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition-colors text-3xl">GitHub</a>
+            <a href="https://linkedin.com/in/harshikabodekar" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400 transition-colors text-3xl">LinkedIn</a>
+            <a href="mailto:harshikabodekar02@gmail.com" className="text-white hover:text-blue-400 transition-colors text-3xl">Email</a>
           </div>
         </div>
       </div>

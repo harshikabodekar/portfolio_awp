@@ -3,13 +3,13 @@ import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react';
 
 const Contact = () => {
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'harshikabodekar02@gmail.com', href: 'mailto:your.email@example.com' },
-    { icon: Phone, label: 'Phone', value: '+91 1234567891', href: 'tel:+911234567891' },
-    { icon: MapPin, label: 'Location', value: 'Pune,India', href: '#' },
+    { icon: Mail, label: 'Email', value: 'your.email@example.com', href: 'mailto:your.email@example.com' },
+    { icon: Phone, label: 'Phone', value: '+91 ', href: 'tel:+15551234567' },
+    { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: '#' },
   ];
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: 'https://github.com/harshikabodekar' },
+    { icon: Github, label: 'GitHub', href: 'https://github.com' },
     { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
     { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
   ];
